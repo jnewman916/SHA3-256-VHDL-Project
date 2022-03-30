@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity theta_stage is
+port();
+end theta_stage;
+
+architecture imp of theta_stage is
+
+begin
+
+end imp;
