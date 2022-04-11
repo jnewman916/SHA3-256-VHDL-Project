@@ -10,57 +10,93 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/flipflop64.vhd}
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:22:12 on Mar 29,2022
-# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/flipflop64.vhd 
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity flipflop64
 # -- Compiling architecture imp of flipflop64
-# End time: 20:22:12 on Mar 29,2022, Elapsed time: 0:00:00
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/theta_stage.vhd}
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:22:12 on Mar 29,2022
-# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/theta_stage.vhd 
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity theta_stage
 # -- Compiling architecture imp of theta_stage
-# End time: 20:22:12 on Mar 29,2022, Elapsed time: 0:00:00
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/theta_stage_tb.vhd}
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:22:12 on Mar 29,2022
-# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3_256/theta_stage_tb.vhd 
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity theta_stage_tb
-# -- Compiling architecture testbench of theta_stage_tb
-# -- Loading entity theta_stage
-# End time: 20:22:12 on Mar 29,2022, Elapsed time: 0:00:00
+# -- Compiling entity rho_pi_stage
+# -- Compiling architecture imp of rho_pi_stage
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/chi_iota_stage.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/chi_iota_stage.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity chi_iota_stage
+# -- Compiling architecture imp of chi_iota_stage
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHA3_256
+# -- Compiling architecture imp of SHA3_256
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  theta_stage_tb
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" theta_stage_tb 
-# Start time: 20:22:12 on Mar 29,2022
+# vcom -93 -work work {C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:26 on Apr 11,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHA3_256_tb
+# -- Compiling architecture imp of SHA3_256_tb
+# -- Loading entity SHA3_256
+# End time: 17:08:26 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  SHA3_256_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" SHA3_256_tb 
+# Start time: 17:08:27 on Apr 11,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.theta_stage_tb(testbench)
-# Loading work.theta_stage(imp)
+# Loading work.sha3_256_tb(imp)
+# Loading work.sha3_256(imp)
 # Loading work.flipflop64(imp)
+# Loading work.theta_stage(imp)
+# Loading work.rho_pi_stage(imp)
+# Loading work.chi_iota_stage(imp)
 # 
 # add wave *
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 200 ns
-# End time: 20:24:18 on Mar 29,2022, Elapsed time: 0:02:06
+# run -all
+# End time: 17:22:48 on Apr 11,2022, Elapsed time: 0:14:21
 # Errors: 0, Warnings: 0

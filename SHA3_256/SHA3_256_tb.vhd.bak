@@ -1,0 +1,22 @@
+ibrary ieee;
+use ieee.std_logic_1164.all;
+
+entity SHA3_256_tb is 
+
+end entity;
+
+architecture imp of SHA3_256_tb is
+
+	signal rst : std_logic;
+	signal clk : std_logic;
+	signal round_const: std_logic_vector(63 downto 0);
+	signal in0 : std_logic_vector(63 downto 0);
+	signal in1 : std_logic_vector(63 downto 0);
+	signal in2 : std_logic_vector(63 downto 0);
+	signal in3 : std_logic_vector(63 downto 0);
+	signal out0 : std_logic_vector(63 downto 0);
+	signal out1 : std_logic_vector(63 downto 0);
+	signal out2 : std_logic_vector(63 downto 0);
+	signal out3 : std_logic_vector(63 downto 0);
+	
+begin 

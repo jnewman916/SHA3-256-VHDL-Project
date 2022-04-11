@@ -1,5 +1,5 @@
 Fitter report for SHA3_256
-Sat Apr 02 16:18:01 2022
+Tue Apr 05 17:33:23 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -54,7 +54,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Failed - Sat Apr 02 16:18:01 2022           ;
+; Fitter Status                   ; Failed - Tue Apr 05 17:33:23 2022           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; SHA3_256                                    ;
 ; Top-level Entity Name           ; SHA3_256                                    ;
@@ -4646,8 +4646,8 @@ Info (11798): Fitter preparation operations ending: elapsed time is 00:00:11
 Error (11802): Can't fit design in device. Modify your design to reduce resources, or choose a larger device. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number.
 Error: Quartus Prime Fitter was unsuccessful. 3 errors, 4 warnings
     Error: Peak virtual memory: 5442 megabytes
-    Error: Processing ended: Sat Apr 02 16:18:01 2022
-    Error: Elapsed time: 00:00:14
-    Error: Total CPU time (on all processors): 00:00:14
+    Error: Processing ended: Tue Apr 05 17:33:23 2022
+    Error: Elapsed time: 00:00:15
+    Error: Total CPU time (on all processors): 00:00:13
 
 

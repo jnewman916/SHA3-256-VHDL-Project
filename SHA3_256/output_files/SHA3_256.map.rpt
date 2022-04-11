@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SHA3_256
-Sat Apr 02 16:17:47 2022
+Tue Apr 05 17:33:07 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Apr 02 16:17:47 2022       ;
+; Analysis & Synthesis Status     ; Successful - Tue Apr 05 17:33:07 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; SHA3_256                                    ;
 ; Top-level Entity Name           ; SHA3_256                                    ;
@@ -292,7 +292,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Apr 02 16:17:35 2022
+    Info: Processing started: Tue Apr 05 17:32:56 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SHA3_256 -c SHA3_256
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -314,6 +314,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file chi_iot
 Info (12021): Found 2 design units, including 1 entities, in source file sha3_256.vhd
     Info (12022): Found design unit 1: SHA3_256-imp File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd Line: 19
     Info (12023): Found entity 1: SHA3_256 File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file sha3_256_tb.vhd
+    Info (12022): Found design unit 1: SHA3_256_tb-imp File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd Line: 8
+    Info (12023): Found entity 1: SHA3_256_tb File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd Line: 4
 Info (12127): Elaborating entity "SHA3_256" for the top level hierarchy
 Info (12128): Elaborating entity "flipflop64" for hierarchy "flipflop64:reg0" File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd Line: 71
 Info (12128): Elaborating entity "theta_stage" for hierarchy "theta_stage:theta" File: C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd Line: 103
@@ -327,9 +330,9 @@ Info (21057): Implemented 2370 device resources after synthesis - the final reso
     Info (21059): Implemented 256 output pins
     Info (21061): Implemented 1792 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4876 megabytes
-    Info: Processing ended: Sat Apr 02 16:17:47 2022
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Tue Apr 05 17:33:07 2022
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 
