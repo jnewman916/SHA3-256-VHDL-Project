@@ -1,80 +1,100 @@
 # # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
 # 
-preplace inst hps.hps_0.usb1 -pg 1
-preplace inst hps.hps_0.spim0 -pg 1
-preplace inst hps.hps_0.i2c1 -pg 1
-preplace inst hps.hps_0.fpgamgr -pg 1
-preplace inst hps.SHA_in2 -pg 1 -lvl 3 -y 260
-preplace inst hps.hps_0.dcan0 -pg 1
-preplace inst hps.hps_0.spim1 -pg 1
-preplace inst hps.hps_0.i2c2 -pg 1
-preplace inst hps.hps_0.dma -pg 1
-preplace inst hps.hps_0.eosc1 -pg 1
-preplace inst hps.hps_0.bridges -pg 1
-preplace inst hps.hps_0.fpga_interfaces -pg 1
-preplace inst hps.hps_0 -pg 1 -lvl 1 -y 50
-preplace inst hps.SHA_in3 -pg 1 -lvl 3 -y 360
-preplace inst hps.hps_0.dcan1 -pg 1
-preplace inst hps.hps_0.i2c3 -pg 1
-preplace inst hps.hps_0.gpio0 -pg 1
-preplace inst hps.hps_0.f2s_sdram_ref_clk -pg 1
-preplace inst hps.hps_0.eosc2 -pg 1
-preplace inst hps.hps_0.hps_io -pg 1
-preplace inst hps.SHA_in4 -pg 1 -lvl 3 -y 460
-preplace inst hps.hps_0.axi_sdram -pg 1
-preplace inst hps.hps_0.gpio1 -pg 1
-preplace inst hps.hps_0.wd_timer0 -pg 1
-preplace inst hps.hps_0.arm_gic_0 -pg 1
-preplace inst hps.SHA_in5 -pg 1 -lvl 3 -y 560
-preplace inst hps.hps_0.scu -pg 1
-preplace inst hps.hps_0.nand0 -pg 1
-preplace inst hps.hps_0.gpio2 -pg 1
-preplace inst hps.hps_0.wd_timer1 -pg 1
-preplace inst hps.hps_0.uart0 -pg 1
-preplace inst hps.SHA_in6 -pg 1 -lvl 3 -y 660
-preplace inst hps.hps_0.uart1 -pg 1
-preplace inst hps.SHA_in7 -pg 1 -lvl 3 -y 760
-preplace inst hps -pg 1 -lvl 1 -y 40 -regy -20
-preplace inst hps.hps_0.axi_ocram -pg 1
-preplace inst hps.hps_0.gmac0 -pg 1
-preplace inst hps.hps_0.qspi -pg 1
-preplace inst hps.hps_0.timer0 -pg 1
-preplace inst hps.hps_0.sysmgr -pg 1
-preplace inst hps.hps_0.l3regs -pg 1
-preplace inst hps.hps_0.gmac1 -pg 1
-preplace inst hps.hps_0.timer1 -pg 1
-preplace inst hps.hps_0.timer2 -pg 1
-preplace inst hps.hps_0.f2s_periph_ref_clk -pg 1
-preplace inst hps.hps_0.hps_io.border -pg 1
-preplace inst hps.hps_0.timer3 -pg 1
-preplace inst hps.hps_0.rstmgr -pg 1
-preplace inst hps.hps_0.arm_a9_0 -pg 1
-preplace inst hps.hps_0.clk_0 -pg 1
 preplace inst hps.hps_0.sdrctl -pg 1
+preplace inst hps.hps_0.nand0 -pg 1
+preplace inst hps.round_const0 -pg 1 -lvl 3 -y 1880
+preplace inst hps.round_const1 -pg 1 -lvl 3 -y 1680
 preplace inst hps.hps_0.clkmgr -pg 1
-preplace inst hps.hps_0.arm_a9_1 -pg 1
-preplace inst hps.hps_0.L2 -pg 1
-preplace inst hps.SHA_in0 -pg 1 -lvl 3 -y 860
-preplace inst hps.hps_0.timer -pg 1
+preplace inst hps.hps_0.axi_ocram -pg 1
+preplace inst hps.hps_0.gpio0 -pg 1
+preplace inst hps.hps_0.gpio1 -pg 1
+preplace inst hps.hps_0 -pg 1 -lvl 1 -y 70
+preplace inst hps.hps_0.arm_a9_0 -pg 1
+preplace inst hps.hps_0.hps_io.border -pg 1
+preplace inst hps.hps_0.gpio2 -pg 1
+preplace inst hps.SHA_out0 -pg 1 -lvl 3 -y 980
+preplace inst hps.hps_0.dma -pg 1
 preplace inst hps.hps_0.usb0 -pg 1
-preplace inst hps.hps_0.sdmmc -pg 1
+preplace inst hps.hps_0.arm_a9_1 -pg 1
+preplace inst hps.hps_0.gmac0 -pg 1
+preplace inst hps.SHA_out1 -pg 1 -lvl 3 -y 1080
+preplace inst hps.hps_0.gmac1 -pg 1
+preplace inst hps.SHA_out2 -pg 1 -lvl 3 -y 1180
+preplace inst hps.hps_0.usb1 -pg 1
+preplace inst hps.SHA_out3 -pg 1 -lvl 3 -y 1280
+preplace inst hps.hps_0.uart0 -pg 1
+preplace inst hps.SHA_out4 -pg 1 -lvl 3 -y 1380
+preplace inst hps.hps_0.uart1 -pg 1
+preplace inst hps.SHA_out5 -pg 1 -lvl 3 -y 1480
+preplace inst hps.hps_0.eosc1 -pg 1
+preplace inst hps.SHA_out6 -pg 1 -lvl 3 -y 1580
+preplace inst hps.hps_0.eosc2 -pg 1
+preplace inst hps.SHA_out7 -pg 1 -lvl 3 -y 1780
+preplace inst hps.hps_0.scu -pg 1
+preplace inst hps -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst hps.hps_0.fpga_interfaces -pg 1
+preplace inst hps.hps_0.timer -pg 1
 preplace inst hps.hps_0.i2c0 -pg 1
-preplace inst hps.clk_0 -pg 1 -lvl 2 -y 100
-preplace inst hps.SHA_in1 -pg 1 -lvl 3 -y 160
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in4_external_connection,(SLAVE)SHA_in4.external_connection) 1 0 3 NJ 490 NJ 490 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in0.external_connection,(SLAVE)hps.sha_in0_external_connection) 1 0 3 NJ 890 NJ 890 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in3_external_connection,(SLAVE)SHA_in3.external_connection) 1 0 3 NJ 390 NJ 390 NJ
-preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)SHA_in2.s1,(SLAVE)SHA_in6.s1,(SLAVE)SHA_in1.s1,(SLAVE)SHA_in3.s1,(SLAVE)SHA_in7.s1,(SLAVE)SHA_in4.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)SHA_in5.s1,(SLAVE)SHA_in0.s1) 1 1 2 NJ 60 760
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in2_external_connection,(SLAVE)SHA_in2.external_connection) 1 0 3 NJ 290 NJ 290 NJ
+preplace inst hps.SHA_in0 -pg 1 -lvl 3 -y 880
+preplace inst hps.hps_0.hps_io -pg 1
+preplace inst hps.SHA_in1 -pg 1 -lvl 3 -y 180
+preplace inst hps.hps_0.i2c1 -pg 1
+preplace inst hps.hps_0.i2c2 -pg 1
+preplace inst hps.SHA_in2 -pg 1 -lvl 3 -y 280
+preplace inst hps.hps_0.i2c3 -pg 1
+preplace inst hps.SHA_in3 -pg 1 -lvl 3 -y 380
+preplace inst hps.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst hps.SHA_in4 -pg 1 -lvl 3 -y 480
+preplace inst hps.hps_0.sdmmc -pg 1
+preplace inst hps.SHA_in5 -pg 1 -lvl 3 -y 580
+preplace inst hps.SHA_in6 -pg 1 -lvl 3 -y 680
+preplace inst hps.hps_0.fpgamgr -pg 1
+preplace inst hps.hps_0.axi_sdram -pg 1
+preplace inst hps.hps_0.l3regs -pg 1
+preplace inst hps.SHA_in7 -pg 1 -lvl 3 -y 780
+preplace inst hps.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst hps.hps_0.sysmgr -pg 1
+preplace inst hps.hps_0.dcan0 -pg 1
+preplace inst hps.hps_0.rstmgr -pg 1
+preplace inst hps.hps_0.clk_0 -pg 1
+preplace inst hps.hps_0.dcan1 -pg 1
+preplace inst hps.hps_0.timer0 -pg 1
+preplace inst hps.hps_0.wd_timer0 -pg 1
+preplace inst hps.hps_0.timer1 -pg 1
+preplace inst hps.hps_0.wd_timer1 -pg 1
+preplace inst hps.hps_0.arm_gic_0 -pg 1
+preplace inst hps.hps_0.timer2 -pg 1
+preplace inst hps.hps_0.bridges -pg 1
+preplace inst hps.hps_0.spim0 -pg 1
+preplace inst hps.hps_0.timer3 -pg 1
+preplace inst hps.hps_0.spim1 -pg 1
+preplace inst hps.clk_0 -pg 1 -lvl 2 -y 120
+preplace inst hps.hps_0.qspi -pg 1
+preplace inst hps.hps_0.L2 -pg 1
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in4_external_connection,(SLAVE)SHA_in4.external_connection) 1 0 3 NJ 510 NJ 510 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in1_external_connection,(SLAVE)SHA_in1.external_connection) 1 0 3 NJ 210 NJ 210 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)SHA_in7.reset,(SLAVE)SHA_out5.reset,(SLAVE)SHA_in1.reset,(SLAVE)SHA_out6.reset,(SLAVE)SHA_out1.reset,(SLAVE)SHA_out4.reset,(SLAVE)SHA_out0.reset,(SLAVE)SHA_in0.reset,(SLAVE)round_const1.reset,(SLAVE)SHA_in2.reset,(MASTER)clk_0.clk_reset,(SLAVE)SHA_in3.reset,(SLAVE)round_const0.reset,(SLAVE)SHA_in6.reset,(SLAVE)SHA_in4.reset,(SLAVE)SHA_in5.reset,(SLAVE)SHA_out3.reset,(SLAVE)SHA_out2.reset,(SLAVE)SHA_out7.reset) 1 2 1 800
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_out1.external_connection,(SLAVE)hps.sha_out1_external_connection) 1 0 3 NJ 1110 NJ 1110 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in0.external_connection,(SLAVE)hps.sha_in0_external_connection) 1 0 3 NJ 910 NJ 910 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_out5.external_connection,(SLAVE)hps.sha_out5_external_connection) 1 0 3 NJ 1510 NJ 1510 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_out4.external_connection,(SLAVE)hps.sha_out4_external_connection) 1 0 3 NJ 1410 NJ 1410 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in6_external_connection,(SLAVE)SHA_in6.external_connection) 1 0 3 NJ 710 NJ 710 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_out0.external_connection,(SLAVE)hps.sha_out0_external_connection) 1 0 3 NJ 1010 NJ 1010 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in3.external_connection,(SLAVE)hps.sha_in3_external_connection) 1 0 3 NJ 410 NJ 410 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_in2_external_connection,(SLAVE)SHA_in2.external_connection) 1 0 3 NJ 310 NJ 310 NJ
 preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hps_io,(SLAVE)hps_0.hps_io) 1 0 1 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in1.external_connection,(SLAVE)hps.sha_in1_external_connection) 1 0 3 NJ 190 NJ 190 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps_0.memory,(SLAVE)hps.memory) 1 0 1 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in6.external_connection,(SLAVE)hps.sha_in6_external_connection) 1 0 3 NJ 690 NJ 690 NJ
-preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)SHA_in0.reset,(SLAVE)SHA_in6.reset,(SLAVE)SHA_in3.reset,(SLAVE)SHA_in4.reset,(SLAVE)SHA_in7.reset,(SLAVE)SHA_in2.reset,(SLAVE)SHA_in5.reset,(MASTER)clk_0.clk_reset,(SLAVE)SHA_in1.reset) 1 2 1 740
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in5.external_connection,(SLAVE)hps.sha_in5_external_connection) 1 0 3 NJ 590 NJ 590 NJ
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)clk_0.clk_in,(SLAVE)hps.clk) 1 0 2 NJ 150 NJ
-preplace netloc FAN_OUT<net_container>hps</net_container>(MASTER)clk_0.clk,(SLAVE)SHA_in2.clk,(SLAVE)SHA_in7.clk,(SLAVE)SHA_in5.clk,(SLAVE)SHA_in1.clk,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)SHA_in0.clk,(SLAVE)SHA_in6.clk,(SLAVE)SHA_in3.clk,(SLAVE)SHA_in4.clk) 1 0 3 210 170 NJ 170 780
-preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in7.external_connection,(SLAVE)hps.sha_in7_external_connection) 1 0 3 NJ 790 NJ 790 NJ
-preplace netloc POINT_TO_POINT<net_container>hps</net_container>(MASTER)hps_0.h2f_reset,(SLAVE)clk_0.clk_in_reset) 1 1 1 520
-levelinfo -pg 1 0 180 970
-levelinfo -hier hps 190 330 570 810 960
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)SHA_in1.s1,(SLAVE)round_const1.s1,(SLAVE)SHA_out1.s1,(SLAVE)SHA_out5.s1,(SLAVE)SHA_in0.s1,(SLAVE)SHA_out2.s1,(SLAVE)SHA_in2.s1,(SLAVE)SHA_out7.s1,(SLAVE)SHA_out6.s1,(SLAVE)round_const0.s1,(SLAVE)SHA_out3.s1,(SLAVE)SHA_in5.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)SHA_in4.s1,(SLAVE)SHA_in7.s1,(SLAVE)SHA_in6.s1,(SLAVE)SHA_out0.s1,(SLAVE)SHA_out4.s1,(SLAVE)SHA_in3.s1) 1 1 2 NJ 190 780
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_out6_external_connection,(SLAVE)SHA_out6.external_connection) 1 0 3 NJ 1610 NJ 1610 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.memory,(SLAVE)hps_0.memory) 1 0 1 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_out3_external_connection,(SLAVE)SHA_out3.external_connection) 1 0 3 NJ 1310 NJ 1310 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.clk,(SLAVE)clk_0.clk_in) 1 0 2 NJ 170 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.round_const1_external_connection,(SLAVE)round_const1.external_connection) 1 0 3 NJ 1710 NJ 1710 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_out2.external_connection,(SLAVE)hps.sha_out2_external_connection) 1 0 3 NJ 1210 NJ 1210 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in5.external_connection,(SLAVE)hps.sha_in5_external_connection) 1 0 3 NJ 610 NJ 610 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)SHA_in1.clk,(SLAVE)SHA_out6.clk,(SLAVE)SHA_out7.clk,(SLAVE)SHA_in2.clk,(SLAVE)SHA_in6.clk,(SLAVE)SHA_out4.clk,(SLAVE)SHA_out3.clk,(SLAVE)round_const1.clk,(SLAVE)SHA_out0.clk,(SLAVE)SHA_out5.clk,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)SHA_in0.clk,(SLAVE)SHA_out1.clk,(SLAVE)SHA_in4.clk,(SLAVE)SHA_in5.clk,(MASTER)clk_0.clk,(SLAVE)round_const0.clk,(SLAVE)SHA_in7.clk,(SLAVE)SHA_out2.clk,(SLAVE)SHA_in3.clk) 1 0 3 230 30 NJ 100 820
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.sha_out7_external_connection,(SLAVE)SHA_out7.external_connection) 1 0 3 NJ 1810 NJ 1810 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.round_const0_external_connection,(SLAVE)round_const0.external_connection) 1 0 3 NJ 1910 NJ 1910 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)SHA_in7.external_connection,(SLAVE)hps.sha_in7_external_connection) 1 0 3 NJ 810 NJ 810 NJ
+preplace netloc POINT_TO_POINT<net_container>hps</net_container>(MASTER)hps_0.h2f_reset,(SLAVE)clk_0.clk_in_reset) 1 1 1 540
+levelinfo -pg 1 0 200 1010
+levelinfo -hier hps 210 350 610 850 1000

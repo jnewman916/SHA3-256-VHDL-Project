@@ -8,7 +8,8 @@
   </columns>
  </systemtable>
  <library
-   expandedCategories="Library,Library/Processors and Peripherals/Peripherals,Library/Processors and Peripherals,Project" />
+   expandedCategories="Library/Processors and Peripherals/Peripherals,Project,Library,Library/Processors and Peripherals" />
  <window width="1920" height="1030" x="0" y="0" />
  <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
 </preferences>

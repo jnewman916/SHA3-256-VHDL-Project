@@ -52,6 +52,8 @@
 			memory_mem_odt                          : out   std_logic;                                        -- mem_odt
 			memory_mem_dm                           : out   std_logic_vector(3 downto 0);                     -- mem_dm
 			memory_oct_rzqin                        : in    std_logic                     := 'X';             -- oct_rzqin
+			round_const0_external_connection_export : out   std_logic_vector(31 downto 0);                    -- export
+			round_const1_external_connection_export : out   std_logic_vector(31 downto 0);                    -- export
 			sha_in0_external_connection_export      : out   std_logic_vector(31 downto 0);                    -- export
 			sha_in1_external_connection_export      : out   std_logic_vector(31 downto 0);                    -- export
 			sha_in2_external_connection_export      : out   std_logic_vector(31 downto 0);                    -- export
@@ -68,8 +70,8 @@
 			sha_out5_external_connection_export     : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			sha_out6_external_connection_export     : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			sha_out7_external_connection_export     : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
-			round_const0_external_connection_export : out   std_logic_vector(31 downto 0);                    -- export
-			round_const1_external_connection_export : out   std_logic_vector(31 downto 0)                     -- export
+			flag_out_external_connection_export     : out   std_logic;                                        -- export
+			flag_in_external_connection_export      : in    std_logic                     := 'X'              -- export
 		);
 	end component hps;
 
@@ -127,6 +129,8 @@
 			memory_mem_odt                          => CONNECTED_TO_memory_mem_odt,                          --                                 .mem_odt
 			memory_mem_dm                           => CONNECTED_TO_memory_mem_dm,                           --                                 .mem_dm
 			memory_oct_rzqin                        => CONNECTED_TO_memory_oct_rzqin,                        --                                 .oct_rzqin
+			round_const0_external_connection_export => CONNECTED_TO_round_const0_external_connection_export, -- round_const0_external_connection.export
+			round_const1_external_connection_export => CONNECTED_TO_round_const1_external_connection_export, -- round_const1_external_connection.export
 			sha_in0_external_connection_export      => CONNECTED_TO_sha_in0_external_connection_export,      --      sha_in0_external_connection.export
 			sha_in1_external_connection_export      => CONNECTED_TO_sha_in1_external_connection_export,      --      sha_in1_external_connection.export
 			sha_in2_external_connection_export      => CONNECTED_TO_sha_in2_external_connection_export,      --      sha_in2_external_connection.export
@@ -143,7 +147,7 @@
 			sha_out5_external_connection_export     => CONNECTED_TO_sha_out5_external_connection_export,     --     sha_out5_external_connection.export
 			sha_out6_external_connection_export     => CONNECTED_TO_sha_out6_external_connection_export,     --     sha_out6_external_connection.export
 			sha_out7_external_connection_export     => CONNECTED_TO_sha_out7_external_connection_export,     --     sha_out7_external_connection.export
-			round_const0_external_connection_export => CONNECTED_TO_round_const0_external_connection_export, -- round_const0_external_connection.export
-			round_const1_external_connection_export => CONNECTED_TO_round_const1_external_connection_export  -- round_const1_external_connection.export
+			flag_out_external_connection_export     => CONNECTED_TO_flag_out_external_connection_export,     --     flag_out_external_connection.export
+			flag_in_external_connection_export      => CONNECTED_TO_flag_in_external_connection_export       --      flag_in_external_connection.export
 		);
 

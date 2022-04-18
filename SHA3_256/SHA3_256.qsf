@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSXFC6D6F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY SHA3_256
+set_global_assignment -name TOP_LEVEL_ENTITY top_level
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:05:19  MARCH 29, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -58,14 +58,12 @@ set_global_assignment -name EDA_TEST_BENCH_NAME theta_stage_tb -section_id eda_s
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id theta_stage_tb
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "200 ns" -section_id theta_stage_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME theta_stage_tb -section_id theta_stage_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE theta_stage_tb.vhd -section_id theta_stage_tb
 set_global_assignment -name EDA_TEST_BENCH_NAME SHA3_256_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id SHA3_256_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME SHA3_256_tb -section_id SHA3_256_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE SHA3_256_tb.vhd -section_id SHA3_256_tb
+set_global_assignment -name VHDL_FILE flipflop.vhd
 set_global_assignment -name QSYS_FILE hps.qsys
 set_global_assignment -name VHDL_FILE flipflop64.vhd
 set_global_assignment -name VHDL_FILE theta_stage.vhd
@@ -74,4 +72,8 @@ set_global_assignment -name VHDL_FILE rho_pi_stage.vhd
 set_global_assignment -name VHDL_FILE chi_iota_stage.vhd
 set_global_assignment -name VHDL_FILE SHA3_256.vhd
 set_global_assignment -name VHDL_FILE SHA3_256_tb.vhd
+set_global_assignment -name VHDL_FILE top_level.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

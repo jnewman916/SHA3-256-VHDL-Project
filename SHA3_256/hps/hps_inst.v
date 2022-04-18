@@ -51,6 +51,8 @@
 		.memory_mem_odt                          (<connected-to-memory_mem_odt>),                          //                                 .mem_odt
 		.memory_mem_dm                           (<connected-to-memory_mem_dm>),                           //                                 .mem_dm
 		.memory_oct_rzqin                        (<connected-to-memory_oct_rzqin>),                        //                                 .oct_rzqin
+		.round_const0_external_connection_export (<connected-to-round_const0_external_connection_export>), // round_const0_external_connection.export
+		.round_const1_external_connection_export (<connected-to-round_const1_external_connection_export>), // round_const1_external_connection.export
 		.sha_in0_external_connection_export      (<connected-to-sha_in0_external_connection_export>),      //      sha_in0_external_connection.export
 		.sha_in1_external_connection_export      (<connected-to-sha_in1_external_connection_export>),      //      sha_in1_external_connection.export
 		.sha_in2_external_connection_export      (<connected-to-sha_in2_external_connection_export>),      //      sha_in2_external_connection.export
@@ -67,7 +69,7 @@
 		.sha_out5_external_connection_export     (<connected-to-sha_out5_external_connection_export>),     //     sha_out5_external_connection.export
 		.sha_out6_external_connection_export     (<connected-to-sha_out6_external_connection_export>),     //     sha_out6_external_connection.export
 		.sha_out7_external_connection_export     (<connected-to-sha_out7_external_connection_export>),     //     sha_out7_external_connection.export
-		.round_const0_external_connection_export (<connected-to-round_const0_external_connection_export>), // round_const0_external_connection.export
-		.round_const1_external_connection_export (<connected-to-round_const1_external_connection_export>)  // round_const1_external_connection.export
+		.flag_out_external_connection_export     (<connected-to-flag_out_external_connection_export>),     //     flag_out_external_connection.export
+		.flag_in_external_connection_export      (<connected-to-flag_in_external_connection_export>)       //      flag_in_external_connection.export
 	);
 

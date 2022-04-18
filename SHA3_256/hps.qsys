@@ -286,6 +286,38 @@
          type = "int";
       }
    }
+   element flag_in
+   {
+      datum _sortIndex
+      {
+         value = "21";
+         type = "int";
+      }
+   }
+   element flag_in.s1
+   {
+      datum baseAddress
+      {
+         value = "608";
+         type = "String";
+      }
+   }
+   element flag_out
+   {
+      datum _sortIndex
+      {
+         value = "20";
+         type = "int";
+      }
+   }
+   element flag_out.s1
+   {
+      datum baseAddress
+      {
+         value = "576";
+         type = "String";
+      }
+   }
    element hps_0
    {
       datum _sortIndex
@@ -356,6 +388,16 @@
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
+ <interface
+   name="flag_in_external_connection"
+   internal="flag_in.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="flag_out_external_connection"
+   internal="flag_out.external_connection"
+   type="conduit"
+   dir="end" />
  <interface name="hps_io" internal="hps_0.hps_io" type="conduit" dir="end" />
  <interface name="memory" internal="hps_0.memory" type="conduit" dir="end" />
  <interface
@@ -677,6 +719,34 @@
   <parameter name="clockFrequencyKnown" value="true" />
   <parameter name="inputClockFrequency" value="0" />
   <parameter name="resetSynchronousEdges" value="NONE" />
+ </module>
+ <module name="flag_in" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Input" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
+ </module>
+ <module name="flag_out" kind="altera_avalon_pio" version="18.1" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="1" />
  </module>
  <module name="hps_0" kind="altera_hps" version="18.1" enabled="1">
   <parameter name="ABSTRACT_REAL_COMPARE_TEST" value="false" />
@@ -1406,6 +1476,24 @@
   <parameter name="baseAddress" value="0x0220" />
   <parameter name="defaultConnection" value="false" />
  </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="flag_out.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0240" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="flag_in.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0260" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
  <connection kind="clock" version="18.1" start="clk_0.clk" end="SHA_in0.clk" />
  <connection kind="clock" version="18.1" start="clk_0.clk" end="SHA_in1.clk" />
  <connection kind="clock" version="18.1" start="clk_0.clk" end="SHA_in2.clk" />
@@ -1424,6 +1512,8 @@
  <connection kind="clock" version="18.1" start="clk_0.clk" end="SHA_out7.clk" />
  <connection kind="clock" version="18.1" start="clk_0.clk" end="round_const0.clk" />
  <connection kind="clock" version="18.1" start="clk_0.clk" end="round_const1.clk" />
+ <connection kind="clock" version="18.1" start="clk_0.clk" end="flag_out.clk" />
+ <connection kind="clock" version="18.1" start="clk_0.clk" end="flag_in.clk" />
  <connection
    kind="clock"
    version="18.1"
@@ -1519,6 +1609,16 @@
    version="18.1"
    start="clk_0.clk_reset"
    end="round_const1.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="flag_out.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="flag_in.reset" />
  <connection
    kind="reset"
    version="18.1"

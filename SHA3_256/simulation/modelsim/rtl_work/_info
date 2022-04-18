@@ -21,9 +21,9 @@ V3IJ;mWVS22OjR>2ma3kPj0
 !s100 F[4XgEKa=JQ6OH]GcEBdA1
 Z6 OV;C;10.5b;63
 31
-Z7 !s110 1649711306
+Z7 !s110 1649980287
 !i10b 1
-Z8 !s108 1649711306.000000
+Z8 !s108 1649980287.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/chi_iota_stage.vhd|
 Z10 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/chi_iota_stage.vhd|
 !i113 1
@@ -60,11 +60,11 @@ VcKDd57fD0XJCSg7ONaI<43
 !s100 9[DjkOG6mIEU<dXDf>L7L2
 R6
 31
-R7
+Z16 !s110 1649980286
 !i10b 1
-R8
-Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd|
-Z17 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd|
+Z17 !s108 1649980286.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd|
+Z19 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/flipflop64.vhd|
 !i113 1
 R11
 R12
@@ -78,21 +78,21 @@ VIck]=K<RjAZ:S0Jdg8@Td0
 !s100 JXX]?^E8;T^Dckd8iS3A22
 R6
 31
-R7
-!i10b 1
-R8
 R16
+!i10b 1
 R17
+R18
+R19
 !i113 1
 R11
 R12
 Erho_pi_stage
-Z18 w1648926250
+Z20 w1648926250
 R2
 R3
 R0
-Z19 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd
-Z20 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd
+Z21 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd
+Z22 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd
 l0
 L4
 V4bhQeDJ2a[^Cm:PV<Zf4e0
@@ -102,8 +102,8 @@ R6
 R7
 !i10b 1
 R8
-Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd|
-Z22 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd|
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd|
+Z24 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/rho_pi_stage.vhd|
 !i113 1
 R11
 R12
@@ -120,18 +120,18 @@ R6
 R7
 !i10b 1
 R8
-R21
-R22
+R23
+R24
 !i113 1
 R11
 R12
 Esha3_256
-Z23 w1648930398
+Z25 w1648930398
 R2
 R3
 R0
-Z24 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd
-Z25 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd
+Z26 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd
+Z27 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd
 l0
 L4
 Vd0M]`Pkf;T3ekNMf9fzVM3
@@ -141,15 +141,15 @@ R6
 R7
 !i10b 1
 R8
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd|
-Z27 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd|
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd|
+Z29 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256.vhd|
 !i113 1
 R11
 R12
 Aimp
 R2
 R3
-Z28 DEx4 work 8 sha3_256 0 22 d0M]`Pkf;T3ekNMf9fzVM3
+Z30 DEx4 work 8 sha3_256 0 22 d0M]`Pkf;T3ekNMf9fzVM3
 l69
 L19
 VW]9MHda8^95VmgMR8Z7g`0
@@ -159,18 +159,18 @@ R6
 R7
 !i10b 1
 R8
-R26
-R27
+R28
+R29
 !i113 1
 R11
 R12
 Esha3_256_tb
-Z29 w1649194373
+Z31 w1649194373
 R2
 R3
 R0
-Z30 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd
-Z31 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd
+Z32 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd
+Z33 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd
 l0
 L4
 VVdo`KlRjOzzlY9Eh8bjfL1
@@ -180,13 +180,13 @@ R6
 R7
 !i10b 1
 R8
-Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd|
-Z33 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd|
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd|
+Z35 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/SHA3_256_tb.vhd|
 !i113 1
 R11
 R12
 Aimp
-R28
+R30
 R2
 R3
 DEx4 work 11 sha3_256_tb 0 22 Vdo`KlRjOzzlY9Eh8bjfL1
@@ -199,29 +199,29 @@ R6
 R7
 !i10b 1
 R8
-R32
-R33
+R34
+R35
 !i113 1
 R11
 R12
 Etheta_stage
-Z34 w1648598278
+Z36 w1648598278
 R2
 R3
 R0
-Z35 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd
-Z36 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd
+Z37 8C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd
+Z38 FC:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd
 l0
 L4
 ViR7z[99AiV@A?O6Fz3h830
 !s100 <N5LbFe2ELRDH^ink1Kf90
 R6
 31
-R7
+R16
 !i10b 1
-R8
-Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd|
-Z38 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd|
+R17
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd|
+Z40 !s107 C:/Users/jack_/Documents/Rowan/Complex_Digital_Systems/SHA3-256 VHDL Project/SHA3_256/theta_stage.vhd|
 !i113 1
 R11
 R12
@@ -235,11 +235,11 @@ Vn4AL=eAne4zPo?cMT31l^3
 !s100 jLaLIMfkZQ_df4Nm46IUi0
 R6
 31
-R7
+R16
 !i10b 1
-R8
-R37
-R38
+R17
+R39
+R40
 !i113 1
 R11
 R12

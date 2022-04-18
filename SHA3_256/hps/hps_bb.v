@@ -52,6 +52,8 @@ module hps (
 	memory_mem_odt,
 	memory_mem_dm,
 	memory_oct_rzqin,
+	round_const0_external_connection_export,
+	round_const1_external_connection_export,
 	sha_in0_external_connection_export,
 	sha_in1_external_connection_export,
 	sha_in2_external_connection_export,
@@ -68,8 +70,8 @@ module hps (
 	sha_out5_external_connection_export,
 	sha_out6_external_connection_export,
 	sha_out7_external_connection_export,
-	round_const0_external_connection_export,
-	round_const1_external_connection_export);	
+	flag_out_external_connection_export,
+	flag_in_external_connection_export);	
 
 	input		clk_clk;
 	output		hps_io_hps_io_emac1_inst_TX_CLK;
@@ -123,6 +125,8 @@ module hps (
 	output		memory_mem_odt;
 	output	[3:0]	memory_mem_dm;
 	input		memory_oct_rzqin;
+	output	[31:0]	round_const0_external_connection_export;
+	output	[31:0]	round_const1_external_connection_export;
 	output	[31:0]	sha_in0_external_connection_export;
 	output	[31:0]	sha_in1_external_connection_export;
 	output	[31:0]	sha_in2_external_connection_export;
@@ -139,6 +143,6 @@ module hps (
 	input	[31:0]	sha_out5_external_connection_export;
 	input	[31:0]	sha_out6_external_connection_export;
 	input	[31:0]	sha_out7_external_connection_export;
-	output	[31:0]	round_const0_external_connection_export;
-	output	[31:0]	round_const1_external_connection_export;
+	output		flag_out_external_connection_export;
+	input		flag_in_external_connection_export;
 endmodule
