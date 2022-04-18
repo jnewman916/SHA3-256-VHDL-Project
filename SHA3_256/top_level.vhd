@@ -243,7 +243,7 @@ u0 : component hps
 		  
 u1: component SHA3_256
 	port map(
-		rst => KEY(0),
+		rst => not KEY(0),
 		clk => clk,
 		round_const(63 downto 0) => round_const(63 downto 0),
 		in0(63 downto 0) => in0(63 downto 0),
@@ -259,7 +259,7 @@ u1: component SHA3_256
 ff0 : component flipflop
 	port map(
 	clk => clk,
-	rst => KEY(0),
+	rst => not KEY(0),
 	d => en,
 	q => prop0
 	);
@@ -267,7 +267,7 @@ ff0 : component flipflop
 ff1 : component flipflop
 	port map(
 	clk => clk,
-	rst => KEY(0),
+	rst => not KEY(0),
 	d => prop0,
 	q => prop1
 	);
@@ -275,7 +275,7 @@ ff1 : component flipflop
 ff2 : component flipflop
 	port map(
 	clk => clk,
-	rst => KEY(0),
+	rst => not KEY(0),
 	d => prop1,
 	q => prop2
 	);
@@ -283,7 +283,7 @@ ff2 : component flipflop
 ff3 : component flipflop
 	port map(
 	clk => clk,
-	rst => KEY(0),
+	rst => not KEY(0),
 	d => prop2,
 	q => flag
 	);
