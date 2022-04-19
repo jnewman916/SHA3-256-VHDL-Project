@@ -66,6 +66,40 @@ void handler(int signo){ //Used to free the mapped resource upon exit()
 	close(fd); exit(0);
 } 
 /*
+void hash(char password[32]) {
+
+	int ind;
+	int password_int[32];
+
+	for (ind = 0; ind < 32; ind = ind + 1)
+	{
+		password_int[ind] = password[ind];
+	}
+
+	*sha_in0 = (password_int[0] << 24) | (password_int[1] << 16) | (password_int[2] << 8) | (password_int[3]);
+	*sha_in1 = (password_int[4] << 24) | (password_int[5] << 16) | (password_int[6] << 8) | (password_int[7]);
+	*sha_in2 = (password_int[8] << 24) | (password_int[9] << 16) | (password_int[10] << 8) | (password_int[11]);
+	*sha_in3 = (password_int[12] << 24) | (password_int[13] << 16) | (password_int[14] << 8) | (password_int[15]);
+
+	*sha_in4 = (password_int[16] << 24) | (password_int[17] << 16) | (password_int[18] << 8) | (password_int[19]);
+	*sha_in5 = (password_int[20] << 24) | (password_int[21] << 16) | (password_int[22] << 8) | (password_int[23]);
+	*sha_in6 = (password_int[24] << 24) | (password_int[25] << 16) | (password_int[26] << 8) | (password_int[27]);
+	*sha_in7 = (password_int[28] << 24) | (password_int[29] << 16) | (password_int[30] << 8) | (password_int[31]);
+	*flag_out = 1;
+
+
+	while (*flag_in==0) {
+
+	}
+
+	printf("SHA0: %#8X SHA1: %#8X\n", *sha_out0, *sha_out1);
+	printf("SHA2: %#8X SHA3: %#8X\n", *sha_out2, *sha_out3);
+	printf("SHA4: %#8X SHA5: %#8X\n", *sha_out4, *sha_out5);
+	printf("SHA6: %#8X SHA7: %#8X\n", *sha_out6, *sha_out7);
+
+	*flag_out = 0;
+}*/
+/*
 struct key_value
 {
 	char* key;

@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 set tool_name "ModelSim-Altera (VHDL)"
+=======
+set tool_name "ModelSim-Altera (VHDL)"
+>>>>>>> Stashed changes
