@@ -161,8 +161,8 @@ void populate_password(int password_int[32])
 
 void prompt_login(int *user_option)
 {
-	printf("Enter: (1) For Create Account, (2) For Existing User:\n")
-	scanf("%d", &user_option)
+	printf("Enter: (1) For Create Account, (2) For Existing User:\n");
+	scanf("%d", &user_option);
 }
 
 
@@ -170,7 +170,7 @@ void create_user(key_value *kv)
 {
 	char password[32];
 	
-	printf("Enter username:\n")
+	printf("Enter username:\n");
 	scanf("%31s", kv[num_created_users].key);
 	
 	printf("Enter a password:\n");
@@ -194,9 +194,9 @@ int main(){
 	} 
 	//peripheral exists at the base address plus the specific offset 
 	
-	initialize_addresses()
+	initialize_addresses();
 
-	initialize_round_const()
+	initialize_round_const();
 	
 	*sha_in0=0x12345678;
 	*sha_in1=0x11111111;
