@@ -90,7 +90,8 @@ void existing_login()
     scanf("%32s", temp_password);
     // printf("num_created_user%d\n", num_created_users);
     // printf("temp_user:%s\n", temp_username);
-    for(int i = 0; i < 5; i++)
+	int i = 0;
+    for(i; i < 5; i++)
     {
         // printf("userid:%s\n", &kv[i].key);
         // printf("tempid:%s\n", temp_username);

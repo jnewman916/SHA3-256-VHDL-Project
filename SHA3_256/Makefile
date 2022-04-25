@@ -1,5 +1,5 @@
 all: 
-	arm-linux-gnueabihf-gcc -Dsoc_cv_av -O2 -o sha sha.c
-	arm-linux-gnueabihf-strip -s sha
+	arm-linux-gnueabihf-gcc -Dsoc_cv_av -O2 -o username_pass username_pass.c
+	arm-linux-gnueabihf-strip -s username_pass
 clean: 
-	rm -rf sha
+	rm -rf username_pass
