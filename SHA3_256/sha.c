@@ -158,8 +158,19 @@ void crack_hash()
 	double time_printed = 0;
 	gettimeofday(&start, NULL);
 	
+	*sha_in0 = 0;// rand();
+	*sha_in1 = 0;// rand();
+	*sha_in2 = 0;// rand();
+	*sha_in3 = 0;// rand();
+
+	*sha_in4 = 0;// rand();
+	*sha_in5 = 0;// rand();
+	*sha_in6 = 0;// rand();
+	*sha_in7 = 0;// rand();
+
 	while(not_cracked)
 	{
+		/*
 		*sha_in0 = rand();
 		*sha_in1 = rand();
 		*sha_in2 = rand();
@@ -169,13 +180,43 @@ void crack_hash()
 		*sha_in5 = rand();
 		*sha_in6 = rand();
 		*sha_in7 = rand();
+		*/
+
+		*sha_in0 = *sha_in0 + 1;
+		
+		if (*sha_in0 == 0x00000000) {
+			*sha_in1 == *sha_in1 + 1;
+			if (*sha_in1 == 0x00000000) {
+				*sha_in2 == *sha_in2 + 1;
+				if (*sha_in2 == 0x00000000) {
+					*sha_in3 == *sha_in3 + 1;
+					if (*sha_in3 == 0x00000000) {
+						*sha_in4 == *sha_in4 + 1;
+						if (*sha_in4 == 0x00000000) {
+							*sha_in5 == *sha_in5 + 1;
+							if (*sha_in5 == 0x00000000) {
+								*sha_in6 == *sha_in6 + 1;
+								if (*sha_in6 == 0x00000000) {
+									*sha_in7 == *sha_in6 + 1;
+									if (*sha_in7 == 0x00000000) {
+										*sha_in0 == *sha_in0 + 1;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+
 		*flag_out = 1;
 		while (*flag_in==0) {} //Wait for the hardware to be ready to hash
 		
 		attempt++;
-		printf("Attempt:%d\n", attempt);
-		printf("SHA1: %#8X %#8X %#8X %#8X\n\n", *sha_out0, *sha_out1, *sha_out2, *sha_out3);
-		printf("SHA1: %#8X %#8X %#8X %#8X\n\n", *sha_out4, *sha_out5, *sha_out6, *sha_out7);
+		//printf("Attempt:%d\n", attempt);
+		//printf("SHA1: %#8X %#8X %#8X %#8X\n\n", *sha_out0, *sha_out1, *sha_out2, *sha_out3);
+		//printf("SHA2: %#8X %#8X %#8X %#8X\n\n", *sha_out4, *sha_out5, *sha_out6, *sha_out7);
 
 		*flag_out = 0;
 		
@@ -187,7 +228,7 @@ void crack_hash()
 			printf("ACCESS GRANTED\n");
 			not_cracked = 0;
 		}
-		if (attempt % 1000 == 0)
+		if (attempt % 100000 == 0)
 		{
 			gettimeofday(&end, NULL);
 	
@@ -195,8 +236,8 @@ void crack_hash()
                         start.tv_sec - start.tv_usec / 1e6; // in seconds
 
 			printf("Total HashAttemps: %d\n", attempt);
-			printf("Average Time hashing per 1000: %f\n", time_taken);
-			sleep(1);
+			printf("Average Time hashing per 100000: %f\n", time_taken);
+			//sleep(1);
 			gettimeofday(&start, NULL);
 		}
 	}
@@ -223,10 +264,10 @@ int main(){
 
 	initialize_round_const();
 	
-	*sha_in0=0x12345678;
-	*sha_in1=0x11111111;
-	*sha_in2=0x22222222;
-	*sha_in3=0x33333333;
+	*sha_in0=0;
+	*sha_in1=0;
+	*sha_in2=0;
+	*sha_in3=0;
 	*sha_in4=0;
 	*sha_in5=0;
 	*sha_in6=0;
